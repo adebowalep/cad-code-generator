@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Model artifacts
+checkpoints/
+*.pt
+*.pth
+*.bin
+
+# Data / cache
+HUGGINGFACE_CACHE/
+data/
+*.stl
+
+# Tokenizer outputs (regenerate with scripts/train_tokenizer.py)
+cadquery_tokenizer/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

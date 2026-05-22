@@ -1,0 +1,37 @@
+[project]
+name = "cad-codegen"
+version = "0.1.0"
+description = "Image-to-CadQuery code generation with a ResNet + Transformer model."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "cadquery>=2.5.2",
+    "datasets>=3.6.0",
+    "scipy>=1.15.3",
+    "trimesh>=4.6.11",
+    "torch>=2.1",
+    "torchvision>=0.16",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "pillow",
+    "tokenizers",
+    "transformers>=4.40",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.29",
+    "notebook>=7.0",
+    "pytest>=7.0",
+]
+demo = [
+    "gradio>=4.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

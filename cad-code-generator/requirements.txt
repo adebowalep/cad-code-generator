@@ -1,0 +1,12 @@
+cadquery>=2.5.2
+datasets>=3.6.0
+scipy>=1.15.3
+trimesh>=4.6.11
+torch>=2.1
+torchvision>=0.16
+pandas
+numpy
+matplotlib
+pillow
+tokenizers
+transformers>=4.40
